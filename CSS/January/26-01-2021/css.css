@@ -1,0 +1,22 @@
+.box {
+    background-color: red;
+    height:200px;
+    width: 21%;
+    float: left;
+    padding: 4px;
+    margin: 8px;
+  
+
+}
+.box1 {
+    background-color: blue;
+    color: white;
+
+}
+.box2{
+    background-color: chartreuse;
+}
+.box3{
+    background-color: darkblue;
+    color: white;
+}
