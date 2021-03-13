@@ -1,0 +1,19 @@
+.hide{
+    background-color: #00ff15;
+    padding: 20px;
+}
+
+@media screen and (max-width:600px){
+    .hide{
+        display: none;
+    }
+}
+.para{
+    background-color: #d3d3d3;
+    font-size: 80px;
+}
+@media screen and (max-width:600px){
+    .para{
+        font-size: 20px;
+    }
+}
