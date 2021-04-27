@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #B600C4;
+}
+
+.container{
+    width: 62.5rem;
+    margin: auto;
+   
+}
+
+.row{
+    width: 50%;
+    height: 30rem;
+    display:block;
+    float: left;
+    background: #fff;
+    margin:4rem 0;
+}
