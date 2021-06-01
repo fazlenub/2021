@@ -24,7 +24,7 @@ body{
 .profile-image{
     float: left;
     width: 100px;
-    height: 120px;
+    height: 110px;
     border: 3px solid white;
     border-radius: 50%;
 }
@@ -83,4 +83,37 @@ hr{
     border-bottom: none;
     width: 100%;
 }
-/* start personal section */
+/* Stop personal section */
+
+/* Start Education section */
+..content{
+
+}
+
+.right-left{
+    width: 50%;
+    float: left;
+}
+
+.right-right{
+    width: 50%;
+    float: left;
+}
+/* Stop Education section */
+
+/* Start footer section */
+.footer-section{
+    background-color: tomato;
+    text-align: center;
+    padding: 10px;
+}
+.footer-section a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+.footer-section p{
+    margin-top: 20px;
+    color: white;
+}
+/* Stop footer section */
