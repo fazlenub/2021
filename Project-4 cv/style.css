@@ -116,4 +116,10 @@ hr{
     margin-top: 20px;
     color: white;
 }
+
+.footer-section p:hover,a:hover{
+    color: blue;
+    text-decoration: underline overline;
+}
+
 /* Stop footer section */

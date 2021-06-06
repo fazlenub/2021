@@ -1,0 +1,56 @@
+:root{
+    --primary-color:red;
+}
+
+.div1{
+    border: 3px solid var(--primary-color, green);
+    padding: 7px;
+    position: static;
+    width: 50%;
+    
+}
+
+.div2{
+    border: 3px solid var(--primary-color, green);
+    padding: 7px;
+    position: relative;
+    left: 30px;
+    width: 50%;
+}
+
+.div3{
+    border: 3px solid var(--primary-color, green);
+    padding: 7px;
+    position: relative;
+    left: 30px;
+    width: 50%;
+    height: 10rem;
+}
+.div4{
+    border: 3px solid var(--primary-color, green);
+    padding: 7px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+.div5{
+    background-color: red;
+    width: 250px;
+    height: 150px;
+    position: absolute;
+  
+}
+
+.div6{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    
+    
+}
