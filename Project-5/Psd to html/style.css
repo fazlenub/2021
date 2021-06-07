@@ -1,0 +1,56 @@
+/* Common CSS */
+body{
+    margin: 0;
+    background-color: #1f1f1f;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Header Area */
+#header_area{
+    background-color: #ffffff;
+    border-top: 5px solid #81b300;
+}
+.inner_header{
+    /* overflow: hidden; */
+    padding: 30px;
+    content: "";
+    clear: both;
+    display: table;
+}
+.logo_area{
+    width: 300px;
+    float: left;
+}
+.right_header_area{
+    width: 590px;
+    float: right;
+}
+.social_area{
+    background-color: #81b300;
+    width: auto;
+}
+.social_area ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.social_area ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.social_area ul li a{
+    background-color: #1f1f1f;
+    width: 35px;
+    padding-top: 8px;
+    /* justify-content: center; */
+    color: #ffffff;
+    font-size: 15px;
+    display: block;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+}
