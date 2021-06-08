@@ -1,21 +1,29 @@
 /* Common CSS */
 body{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: #1f1f1f;
 }
 .container{
     max-width: 960px;
-    margin: 0 auto;
+    width: 96%;
+    margin: 0 auto;  
 }
+/* .content{
+    max-width: 900px;
+    width: 96%;
+    margin: 0 auto;  
+} */
 
-/* Header Area */
+/* START Header SECTION */
 #header_area{
     background-color: #ffffff;
     border-top: 5px solid #81b300;
 }
 .inner_header{
     /* overflow: hidden; */
-    padding: 30px;
+    padding: 0 30px;
     content: "";
     clear: both;
     display: table;
@@ -23,6 +31,7 @@ body{
 .logo_area{
     width: 300px;
     float: left;
+    padding-top: 30px;
 }
 .right_header_area{
     width: 590px;
@@ -31,6 +40,10 @@ body{
 .social_area{
     background-color: #81b300;
     width: auto;
+    float: right;
+    padding: 15px 10px;
+    border-radius: 0 0 15px 15px;
+    
 }
 .social_area ul{
     margin: 0;
@@ -42,15 +55,137 @@ body{
     display: inline-block;
     margin: 0 5px;
 }
-.social_area ul li a{
-    background-color: #1f1f1f;
-    width: 35px;
-    padding-top: 8px;
-    /* justify-content: center; */
-    color: #ffffff;
-    font-size: 15px;
-    display: block;
-    height: 35px;
-    text-align: center;
-    border-radius: 50%;
+.social_area ul li a {
+	display: block;
 }
+.social_area ul li a i{
+	background-color: #1f1f1f;
+	width: 35px;
+	padding-top: 9px;
+	color: #ffffff;
+	font-size: 15px;
+	/* display: block; */
+	height: 25px;
+	text-align: center;
+	border-radius: 25px;
+    transition: .5s;
+}
+.social_area ul li a:hover{
+    background-color: #81b300;
+}
+
+.social_area ul li a:hover i.fa-linkedin-in{
+    background-color: #0076B2;
+}
+.social_area ul li a:hover i.fa-twitter{
+    background-color: #55ACED;
+}
+.social_area ul li a:hover i.fa-pinterest{
+    background-color: #BD081C;
+}
+.social_area ul li a:hover i.fa-google-plus{
+    background-color: #DB543F;
+}
+.social_area ul li a:hover i.fa-rss{
+    background-color: #F58023;
+}
+.top_menu{
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin: 15px 0 0 0;
+}
+.top_menu ul{
+    list-style: none;
+}
+.top_menu ul li{
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+}
+.top_menu ul li::after{
+    position: absolute;
+    content: "|";
+    right: -10px;
+    top: -1px; 
+    color:#000;
+}
+.top_menu ul li:last-child::after{
+    display: none;
+}
+.top_menu ul li a{
+    color: #000;
+    text-decoration: none;
+    font-family: georgia;
+    font-size: 13px;
+    font-weight: normal;
+}
+.top_menu ul li a:hover{
+    color: #81b300;
+    text-decoration: underline; 
+}
+/* END Header SECTION */
+
+/* START NAV SECTION */
+#nav{
+    background-color: #81b300;
+    padding: 15px 0;
+}
+.inner_menu{
+    content: "";
+    clear: both;
+    display: table; 
+    /* width: 100%; */
+    font-size: 13px;
+}
+.menu_area{
+    float: left;
+    max-width: 600px;
+    width: 75%;
+    display: inline-block;
+}
+.menu_area ul{
+    text-align: left;
+   
+    
+}
+.menu_area ul li{
+    display: inline-block;
+    margin: 0;
+}
+.menu_area ul li a{
+    margin: 0 5px;
+    font-size: 30px;
+    font-family: regular;
+}
+/* SERACH AREA */
+.search_area{
+    float: right;
+    max-width: 280px;
+    width: 25%;
+}
+.search_area input{
+    width: 69%;
+    padding: 5px 1%;
+    border: 1px solid #ddd;
+    color: #000;
+    float: left;
+}
+.search_area input[type="submit"]{
+    width: 27%;
+    float: right;
+    max-width: 280px;
+    padding: 5px 1%;
+    color: #81b300;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+}
+.search_area input[type="submit"]:hover{
+    background-color: #000;
+    border: border 1px solid #000;
+    color: #fff;
+}
+
+
+/* END NAV SECTION */
