@@ -136,11 +136,14 @@ body{
     /* content: "";
     clear: both;
     display: table; */
+    padding: 0 15px;
 }
 .menu_area{
     float: left;
     max-width: 600px;
-    width: 75%;
+    width: 79%;
+    padding-top: 5px;
+    min-height: 25px;
 }
 .menu_area ul{
     margin: 0;
@@ -150,19 +153,26 @@ body{
 }
 .menu_area ul li{
     display: inline-block;
-    margin-right: 0 5px;
+    margin-right: 0 10px;
+    font-size: 15px;
 }
 .menu_area ul li a{
-    font-size: 13px;
     color: #fff;
-    font-family: regular;
+    font-family: normal;
     text-decoration: none;
+    margin: 0 5px;
+}
+.menu_area ul li:hover{
+    color: #0076B2;
+    cursor: pointer;
+    font-weight:bold;
+    font-size: 14px;
 }
 /* SERACH AREA */
 .search_area{
     float: right;
     max-width: 280px;
-    width: 25%;
+    width: 21%;
 }
 .search_area input{
     width: 69%;
