@@ -132,18 +132,18 @@ body{
     padding: 15px 0;
 }
 .inner_menu{
-    overflow: hidden;
+    /* overflow: hidden; */
     /* content: "";
     clear: both;
     display: table; */
     padding: 0 15px;
+    min-height: 28px;
 }
 .menu_area{
     float: left;
     max-width: 600px;
     width: 79%;
     padding-top: 5px;
-    min-height: 25px;
 }
 .menu_area ul{
     margin: 0;
@@ -155,19 +155,48 @@ body{
     display: inline-block;
     margin-right: 0 10px;
     font-size: 15px;
+    position: relative;
 }
 .menu_area ul li a{
     color: #fff;
     font-family: normal;
     text-decoration: none;
     margin: 0 5px;
+    padding: 5px 0;
 }
-.menu_area ul li:hover{
+.menu_area ul li a:hover{
     color: #0076B2;
     cursor: pointer;
     font-weight:bold;
-    font-size: 14px;
+    font-size: 15px;
 }
+/* DROPDOWN MENU-2 */
+.menu_area ul li ul{
+    position: absolute;
+    left: 0;
+    top: 22px;
+    width: 180px;
+    background-color: #000;
+}
+.menu_area ul ul li{
+    display: block;
+    margin-right: 0;
+    margin-bottom: 5px;
+   
+}
+.menu_area ul ul li a{
+    display: block;
+    padding: 4px;  
+}
+.menu_area ul ul li a:hover{
+   background-color: #81b300;
+   color: #fff;
+   margin: 0;
+   
+   
+}
+
+
 /* SERACH AREA */
 .search_area{
     float: right;
