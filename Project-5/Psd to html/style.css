@@ -173,10 +173,14 @@ body{
 /* DROPDOWN MENU-2 */
 .menu_area ul li ul{
     position: absolute;
-    left: 0;
+    /* left: 0; */
+    left: -999999px;
     top: 22px;
     width: 180px;
     background-color: #000;
+}
+.menu_area ul li:hover ul{
+   left: 0;
 }
 .menu_area ul ul li{
     display: block;
@@ -191,10 +195,17 @@ body{
 .menu_area ul ul li a:hover{
    background-color: #81b300;
    color: #fff;
-   margin: 0;
-   
-   
+   margin: 0; 
 }
+/* DROPDOWN MENU-2 */
+.menu_area ul li ul ul{
+    left: -999999px;
+    top: 0;
+}
+
+.menu_area ul ul li:hover ul{
+    left: 180px;
+ }
 
 
 /* SERACH AREA */
