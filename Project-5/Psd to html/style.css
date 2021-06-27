@@ -19,6 +19,7 @@ body{
 /* START Header SECTION */
 #header_area{
     background-color: #ffffff;
+
     border-top: 5px solid #81b300;
 }
 .inner_header{
