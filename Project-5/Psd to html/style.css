@@ -197,15 +197,25 @@ body{
    color: #fff;
    margin: 0; 
 }
+
+.menu_area ul ul li:hover a{
+    color: #000;
+ }
+ .menu_area ul ul li:hover ul a{
+    color: #fff;
+ }
 /* DROPDOWN MENU-2 */
-.menu_area ul li ul ul{
+.menu_area ul ul ul{
     left: -999999px;
     top: 0;
 }
 
-.menu_area ul ul li:hover ul{
-    left: 180px;
+.menu_area ul li:hover ul ul{
+    left: -9999999px;
  }
+ .menu_area ul li ul:hover ul{
+     left: 180px;
+  }
 
 
 /* SERACH AREA */
